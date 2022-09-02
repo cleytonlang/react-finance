@@ -7,14 +7,14 @@ function Summary() {
     <Container>
       <div>
         <header>
-          <p>Entradas</p>
+          <p>Deposits</p>
           <img src={IncomeImg} alt="Entradas" />
         </header>
         <strong>R$1.800,00</strong>
       </div>
       <div>
         <header>
-          <p>Saídas</p>
+          <p>Cash outs</p>
           <img src={OutcomeImg} alt="Saídas" />
         </header>
         <strong>-R$500,00</strong>
