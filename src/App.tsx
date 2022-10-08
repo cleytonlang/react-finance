@@ -5,6 +5,7 @@ import { createServer, Model } from "miragejs";
 import Modal from "react-modal";
 import { useState } from "react";
 import { NewTransactionModal } from "./components/NewTransactionModal";
+import { TransactionsProvider } from "./TransactionsContext";
 Modal.setAppElement("#root");
 
 createServer({
@@ -16,7 +17,7 @@ createServer({
       transactions: [
         {
           id: 1,
-          title: "Freelancer Website",
+          title: "Job deliver",
           type: "deposit",
           category: "Dev",
           amount: 6000,
@@ -24,7 +25,7 @@ createServer({
         },
         {
           id: 2,
-          title: "Aluguel",
+          title: "Rent apartament",
           type: "withdraw",
           category: "Dev",
           amount: 1300,
@@ -58,7 +59,7 @@ export function App() {
   }
 
   return (
-    <>
+    <TransactionsProvider>
       <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
       <Dashboard />
 
@@ -68,6 +69,6 @@ export function App() {
       />
 
       <GlobalStyle />
-    </>
+    </TransactionsProvider>
   );
 }
