@@ -2,7 +2,7 @@
 
 # :zap: C Finance App
 
-Application created for studies with React, using compensation concepts, context concepts and fake data generation with MirageJS
+Application created for studies with React, using componentization concepts, context concepts and fake data generation with MirageJS.
 
 ## :gear: Techs used
 
