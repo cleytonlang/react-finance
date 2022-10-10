@@ -4,6 +4,8 @@
 
 Application created for studies with React, using componentization concepts, context concepts and fake data generation with MirageJS.
 
+- Demo: [`click here`](https://main.d3ii1zge1gcr5q.amplifyapp.com)
+
 ## :gear: Techs used
 
 - React JS
