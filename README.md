@@ -1,4 +1,4 @@
-![](./.github/assets/system.jpg)
+![](./.github/src/assets/system.jpg)
 
 # :zap: C Finance App
 
