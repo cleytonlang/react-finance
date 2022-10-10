@@ -1,4 +1,4 @@
 import axios from "axios";
 export const api = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "https://main.d3ii1zge1gcr5q.amplifyapp.com/api",
 });
