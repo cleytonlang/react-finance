@@ -1,4 +1,4 @@
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo.fw.png";
 
 import { Container, Content } from "./styles";
 
@@ -10,7 +10,7 @@ function Header({ onOpenNewTransactionModal }: HeaderProps) {
   return (
     <Container>
       <Content>
-        <img src={logo} alt="dt money" />
+        <img src={logo} alt="C Finance" />
         <button type="button" onClick={onOpenNewTransactionModal}>
           New transaction
         </button>
