@@ -4,7 +4,7 @@
 
 Application created for studies with React, using componentization concepts, context concepts and fake data generation with MirageJS.
 
-- Demo: [`click here`](https://main.d3ii1zge1gcr5q.amplifyapp.com){:target="_blank"}
+- Demo: <a href="https://main.d3ii1zge1gcr5q.amplifyapp.com" target="_blank">click here</a>
 
 ## :gear: Techs used
 
