@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/static/js/main.921ce34c.js",
+    "static/media/logo.fw.png": "/static/media/logo.fw.32e8f882453d12e3e1e0.png",
+    "index.html": "/index.html",
+    "static/media/total.svg": "/static/media/total.efc003fec6ccd094143486647c83e038.svg",
+    "static/media/lost.svg": "/static/media/lost.6eb96d3079777422e5bd5deaa688a46e.svg",
+    "static/media/get.svg": "/static/media/get.d58effe2f7ca5d17f64c8350e5fa2fe2.svg",
+    "static/media/close.svg": "/static/media/close.3e141cd0857f961999baa367bad49474.svg",
+    "main.921ce34c.js.map": "/static/js/main.921ce34c.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.921ce34c.js"
+  ]
+}
